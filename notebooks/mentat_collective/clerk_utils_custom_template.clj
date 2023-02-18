@@ -74,7 +74,7 @@
   {:transform-fn clerk/mark-presented
    :render-fn
    '(fn [x]
-      [:pre x "² is equal to " (custom/square x) "."])})
+      [:pre x "² is equal to " (mentat-collective.custom/square x) "."])})
 
 ;; Use this new viewer to show that custom ClojureScript works:
 
